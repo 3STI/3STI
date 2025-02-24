@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formul.css">
+</head>
+<body>
+  <div>
+      <article>
+        <header>
+                 <h2>Inscription</h2>
+        </header>
+<div id="inscp"><fieldset><legend>Inscription dans notre site:</legend>
+  <form method="get" action="#">
+    <div>
+  <label>Nom et prénom</label>
+      <input TYPE="TEXT" NAME="nom" maxlength="25" autofocus required onchange="alert('saisir votre nom svp');" >
+    </div>
+	
+    <div>
+  <label FOR="idprenom" >genre</label>
+      <label>
+        <input type="radio" name="radiobutton" value="homme" checked />
+        homme</label>
+      <label>
+        <input type="radio" name="radiobutton" value="femme" />
+        femme</label>
+    </div>
+    <div>
+  <label FOR="idprenom" >Date de naissance</LABEL>
+      <INPUT TYPE="Date" NAME="nom" min="01/01/1980" >
+    </div>
+      <p>
+      <LABEL >mot de passe</LABEL>
+      <input TYPE="password" NAME="mp" ID="idprenom" minlength="4" maxlength="8" ></P>
+		  <p><label>adresse email</label><input type="email" autocomplete="off" required></p>
+			  <div><label>choisir une image</label><input type="file" accept="image/png"></div>
+    <label>J'accepte les conditions</label>
+      <input type="checkbox" ><div>
+   <input type="submit" value="    Envoyer" class="bt">
+    <input type="reset"  VALUE="   Annuler " class="bt"></div>
+  </form>
+		</fieldset>
+	</div>
+		     </article>
+       
+    
+</body>
+</html>

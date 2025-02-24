@@ -1,0 +1,15 @@
+@charset "utf-8";
+#menu {
+    background-color: #F0D3D4;
+    display: inline-block;
+    list-style-type: none;
+}
+#ent {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: yellow;
+    background-color:lightblue;
+}
+img{
+	width: 150px;
+	height: 200px;
+}
